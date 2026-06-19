@@ -345,3 +345,189 @@ font-size:28px;
 text-decoration:none;
 z-index:999;
 }
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media(max-width:992px){
+
+.header{
+flex-direction:column;
+padding:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+margin-top:15px;
+gap:15px;
+}
+
+.overlay h1{
+font-size:42px;
+}
+
+.overlay p{
+font-size:18px;
+}
+
+}
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.logo-section h2{
+font-size:18px;
+}
+
+.overlay h1{
+font-size:32px;
+line-height:1.2;
+}
+
+.overlay p{
+font-size:16px;
+}
+
+.hero-buttons{
+flex-direction:column;
+width:100%;
+max-width:300px;
+}
+
+.btn{
+width:100%;
+text-align:center;
+}
+
+section{
+overflow:hidden;
+}
+
+section h2{
+font-size:28px;
+}
+
+.about,
+.services,
+.why-us,
+.featured-products,
+.cta{
+padding:60px 20px;
+}
+
+.product-card img{
+height:220px;
+}
+
+.card,
+.why-card{
+padding:20px;
+}
+
+.floating-whatsapp,
+.floating-instagram{
+width:55px;
+height:55px;
+font-size:24px;
+}
+
+.floating-whatsapp{
+bottom:20px;
+right:15px;
+}
+
+.floating-instagram{
+bottom:85px;
+right:15px;
+}
+
+}
+
+
+/* SMALL MOBILE */
+
+@media(max-width:480px){
+
+.overlay h1{
+font-size:26px;
+}
+
+.overlay p{
+font-size:14px;
+}
+
+.logo-section img{
+width:45px;
+height:45px;
+}
+
+.logo-section h2{
+font-size:16px;
+}
+
+nav ul{
+gap:10px;
+}
+
+nav ul li a{
+font-size:14px;
+}
+
+.product-grid,
+.service-grid,
+.why-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+
+/* SMOOTH SCROLL */
+
+html{
+scroll-behavior:smooth;
+}
+
+
+/* ANIMATIONS */
+
+.card,
+.why-card,
+.product-card{
+transition:all 0.35s ease;
+}
+
+.card:hover,
+.why-card:hover,
+.product-card:hover{
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+.btn,
+.cta-btn{
+transition:all 0.3s ease;
+}
+
+.btn:hover,
+.cta-btn:hover{
+opacity:0.9;
+}
+
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-track{
+background:#f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+background:#F59E0B;
+border-radius:20px;
+}
