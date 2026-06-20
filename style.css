@@ -6,7 +6,7 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#ffffff;
+background:linear-gradient(135deg,#f8fafc,#e2e8f0);
 color:#1f2937;
 line-height:1.6;
 }
@@ -656,4 +656,62 @@ border:none;
 border-radius:10px;
 cursor:pointer;
 font-size:16px;
+}
+@media(max-width:768px){
+
+.hero{
+height:50vh !important;
+background-position:center top;
+}
+
+.overlay h1{
+font-size:28px;
+}
+
+}
+.floating-whatsapp{
+animation:glowwa 2s infinite;
+}
+
+.floating-instagram{
+animation:glowig 2s infinite;
+}
+
+@keyframes glowwa{
+0%{
+box-shadow:0 0 5px #25D366;
+}
+50%{
+box-shadow:0 0 25px #25D366;
+}
+100%{
+box-shadow:0 0 5px #25D366;
+}
+}
+
+@keyframes glowig{
+0%{
+box-shadow:0 0 5px #E1306C;
+}
+50%{
+box-shadow:0 0 25px #E1306C;
+}
+100%{
+box-shadow:0 0 5px #E1306C;
+}
+}
+.product-card,
+.card,
+.review-card,
+.contact-card,
+.why-card{
+transition:0.4s;
+}
+
+.product-card:hover,
+.card:hover,
+.review-card:hover,
+.contact-card:hover,
+.why-card:hover{
+transform:translateY(-10px) scale(1.03);
 }
