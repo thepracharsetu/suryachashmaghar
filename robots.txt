@@ -1,0 +1,4 @@
+hereUser-agent: *
+Allow: /
+
+Sitemap: https://thepracharsetu.github.io/suryachashmaghar/sitemap.xml
