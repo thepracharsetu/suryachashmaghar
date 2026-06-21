@@ -743,3 +743,47 @@ transition:0.3s;
 .contact-link .contact-card:hover{
 transform:translateY(-8px);
 }
+.info-section{
+max-width:1200px;
+margin:40px auto;
+padding:0 20px;
+}
+
+.info-card{
+background:#fff;
+padding:25px;
+margin-bottom:25px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.info-card:hover{
+transform:translateY(-5px);
+}
+
+.info-card h2{
+margin-bottom:15px;
+color:#0b1635;
+font-size:32px;
+}
+
+.features{
+list-style:none;
+padding:0;
+}
+
+.features li{
+padding:10px 0;
+border-bottom:1px solid #eee;
+}
+
+.location-box,
+.contact-box{
+background:#0b1635;
+color:white;
+padding:25px;
+border-radius:15px;
+text-align:center;
+margin-top:20px;
+   }
